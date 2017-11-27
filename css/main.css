@@ -1,0 +1,122 @@
+@import url(../fonts/stylesheet.css);
+body {
+  color: #333333; }
+
+.container {
+  max-width: 1200px; }
+
+header {
+  background: #f3f2f1 url("../img/border.png");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  min-height: 106px;
+  position: relative;
+  font-size: 18px; }
+  header .navbar {
+    padding: 0; }
+  header .navbar-brand {
+    top: 0px;
+    position: absolute; }
+  header .navbar-nav {
+    margin-top: 2rem !important; }
+  header .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0.9rem;
+    padding-left: 0.9rem; }
+
+.hero-panel {
+  height: 89vh;
+  background: url("../img/hero-image.jpg") 50% 0;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center; }
+  .hero-panel .text-highlight {
+    background: rgba(210, 0, 0, 0.75);
+    text-align: center;
+    font-size: 3.5rem;
+    width: 100%; }
+  .hero-panel__content {
+    display: inline-block;
+    margin-top: 19%; }
+  .hero-panel__play-button {
+    display: block;
+    margin-top: 4rem !important; }
+  .hero-panel__button {
+    margin-top: 4rem !important;
+    display: block;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #cc0000;
+    color: #ffffff;
+    font-size: 30px;
+    padding: .1rem 4.5rem; }
+  .hero-panel__down-arrow {
+    display: block;
+    opacity: .25;
+    margin-top: 9rem !important; }
+
+.listing-panel {
+  color: #333333;
+  padding-bottom: 4.5rem; }
+  .listing-panel__panel-heading {
+    display: block;
+    text-align: center;
+    font-size: 3.5rem; }
+  .listing-panel__dots {
+    text-align: center; }
+  .listing-panel__section-heading {
+    font-size: 4rem;
+    color: #cc0000;
+    font-weight: bold; }
+  .listing-panel__down-arrow {
+    display: block;
+    opacity: .25;
+    margin-top: 4rem !important;
+    text-align: center; }
+
+.detail-panel {
+  color: #333333;
+  background: #f4f4f4;
+  padding-bottom: 4.5rem; }
+  .detail-panel p {
+    font-size: 15px; }
+  .detail-panel__panel-heading {
+    display: block;
+    text-align: center;
+    font-size: 3.5rem; }
+  .detail-panel__dots {
+    text-align: center; }
+  .detail-panel__section-heading {
+    font-size: 4rem;
+    color: #cc0000;
+    font-weight: bold;
+    border-bottom: 3px #eae7de solid; }
+  .detail-panel__up-arrow {
+    text-align: center;
+    display: block;
+    opacity: .75;
+    margin-top: 4rem !important; }
+
+footer {
+  background: url("../img/border.png");
+  background-repeat: repeat-x;
+  background-position: top;
+  padding-bottom: 6rem; }
+
+.footer__copyright {
+  font-size: 0.9em; }
+
+.footer__copyright-name {
+  color: #999999; }
+
+.footer .nav-link {
+  font-size: 1.2em;
+  padding: 0rem 1rem;
+  color: #333333; }
+
+#photos img{
+  display:block;
+  border: 1px solid #cccccc;
+  padding:10px;
+  margin:0 auto 10px auto;
+}
